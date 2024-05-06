@@ -42,12 +42,12 @@ case "$COMMAND" in
         done
 
         # Call the print-bill script with parameters
-        ./print-bill.sh -e "$AMOUNT" -t "$TAXES" -c "$COUNT"
+        ./main/src/print-bill.sh -e "$AMOUNT" -t "$TAXES" -c "$COUNT"
         ;;
 
     check-amount)
         # Call the check-amount script
-        ./check-amount.sh
+        ./main/src/check-amount.sh
         ;;
 
     *)
