@@ -1,0 +1,1 @@
+echo "Total amount is 20."
